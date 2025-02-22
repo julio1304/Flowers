@@ -337,6 +337,26 @@ footer p {
   .social-icons a {
     font-size: 1.5rem;
   }
+  
+  /* Adjust testimonial image size */
+  .testimonial-image {
+    width: 80%; /* Reduce width */
+    margin-bottom: 1rem;
+    height: auto;
+  }
+
+  /* Center testimonial text */
+  .testimonial-text {
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the text takes full width */
+    margin-bottom: 1rem; /* Add some spacing at the bottom */
+  }
+
+  /* Adjust testimonial container layout */
+  .testimonial-container {
+    flex-direction: column; /* Stack the image and text */
+    align-items: center; /* Center both items */
+  }
 
   footer {
     padding: 1rem;
