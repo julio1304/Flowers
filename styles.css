@@ -302,8 +302,19 @@ footer p {
     margin-bottom: 1rem;     /* Space between images */
   }
   .about-content {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column;  /* Keep items stacked vertically */
+    text-align: center;  /* Center the text */
+  }
+
+  #about img {
+    width: 80%;            /* Adjust the image width for smaller screens */
+    height: auto;          /* Ensure the image maintains its aspect ratio */
+    order: 2;              /* Ensure the image comes after the text */
+    margin-bottom: 1rem;   /* Space between text and image */
+  }
+
+  #about h2, #about p {
+    order: 1;              /* Ensure text comes before the image */
   }
 
   .testimonial-container {
@@ -337,7 +348,7 @@ footer p {
   .social-icons a {
     font-size: 1.5rem;
   }
-  
+
   /* Adjust testimonial image size */
   .testimonial-image {
     width: 80%; /* Reduce width */
