@@ -156,6 +156,24 @@ body {
   font-size: 1.2rem;
   color: #555;
 }
+/* General Section Headings */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center; /* Center-align the heading */
+}
+
+/* Testimonials Section */
+#testimonials h2 {
+  margin-top: 3rem; /* Add some space above the heading */
+}
+
+/* Contact Section */
+#contact h2 {
+  margin-top: 3rem; /* Add space for the header */
+}
+
 
 /* Testimonials Section */
 .testimonials {

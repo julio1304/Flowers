@@ -23,7 +23,7 @@ function updateGallery() {
   const galleryContainer = document.getElementById('gallery-container');
   if (!galleryContainer) return;
 
-  galleryContainer.innerHTML = ''; // Clear any previous content
+  galleryContainer.innerHTML = '';
 
   const slider = document.createElement('div');
   slider.classList.add('gallery-slider');
